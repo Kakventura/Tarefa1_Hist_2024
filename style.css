@@ -1,0 +1,85 @@
+
+            body {
+                display: flex;
+                margin-top: 70px;
+                margin-left: 200px;
+                margin-right: 200px;
+                   
+            }
+
+            img {
+                margin-left: 25px;
+                height: 370px;
+                width: 300px;
+                border-radius: 15px;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 7);
+            }
+
+            h1 {
+                text-align: center;
+                color:  #858da2;
+                margin-bottom: 60px;
+                font-family: "Kristi", cursive; 
+                font-size: 120px;
+                font-weight: bold;
+                
+            }
+            h2 {
+                text-align: center;
+                color: #b2ceed;
+                font-family: "Kristi", cursive; 
+                font-weight: bold;
+            }
+
+            p {
+                margin-top: 85px;
+                margin-bottom: 0%;
+                text-align: center;
+                color: #091a34;
+                font-family: "Bebas Neue", cursive;
+                font-size: 20px;
+                padding: 10px;
+                background-color: #b2ceed;
+                
+            }
+
+            .espaco {
+                margin-top: 100px;
+            }
+
+            .subcontainer {
+                display: flex;
+                position: relative;  
+                width: 250px;  
+                height: 320px;    
+            }
+
+            .thecard {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform-style: preserve-3d;
+                transition: all 0.5s ease;  
+            }
+
+            .thecard:hover{
+                transform: rotateY(180deg);    
+            }
+
+            .thefront {
+                position: absolute; 
+                width: 100%;
+                height: 100%;   
+                backface-visibility: hidden;
+                border-radius: 10px;
+            }
+
+            .theback {
+                position: absolute; 
+                width: 100%;
+                height: 100%;   
+                backface-visibility: hidden;
+                transform: rotateY(180deg);
+                border-radius: 10px;
+            }
+    
